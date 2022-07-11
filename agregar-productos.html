@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Geek - Agregar Productos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/root.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/agregar-procutos/agregar-productos.css">
+  <link rel="stylesheet" href="css/main/contacto.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-logo-busqueda">
+      <h1 class="logo"><a href="index.html"><img id="img-logo" src="img/logo.png" alt="logo"></a></h1>
+      <div class="busqueda">
+        <input id="input-buscar" type="text" placeholder="¿Que deseas buscar?">
+        <button class="boton-buscar"><img class="img-lupa" src="img/lupa.png" alt="lupa"></button>
+      </div>
+    </div>
+    <div class="boton__login">
+      <button class="boton__blanco"  onclick="window.location.href='productos.html'">Menu Administrador</button>
+    </div>
+  </header>
+  <main>
+    <section class="agregar__producto">
+      <h1 class="agregar__producto-titulo">Agregar nuevo producto</h1>
+      <form>
+        <div class="contenedor__agregar__producto">
+          <input class="input-agregar" type="text" placeholder="URL de la imagen">
+        </div>
+        <div class="contenedor__agregar__producto">
+          <input class="input-agregar" type="text" placeholder="Categoría">
+        </div>
+        <div class="contenedor__agregar__producto">
+          <input class="input-agregar" type="text" placeholder="Nombre del Producto">
+        </div>
+        <div class="contenedor__agregar__producto">
+          <input class="input-agregar" type="text" placeholder="Precio del Producto">
+        </div>
+        <div class="contenedor__agregar__producto">
+          <textarea class="input-agregar agregar-descripcion" type="text" placeholder="Descripcion del producto"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="boton__azul boton-agregar">Agregar producto</button>
+        </div>
+      </form>
+    </section>
+    <section class="contacto">
+      <div class="contacto__div-logo">
+        <img class="contacto-imagen" src="img/Logo.png" alt="logo">
+      </div>
+      <div class="contacto__div-nav">
+        <nav class="contcto-nav">
+          <ul class="nav-lista">
+            <li class="nav-lista-item"><a href="#">Quienes somos</a></li>
+            <li class="nav-lista-item"><a href="#">Política de privacidad</a></li>
+            <li class="nav-lista-item"><a href="#">Programa de fidelidad</a></li>
+            <li class="nav-lista-item"><a href="#">Nuestras Tiendas</a></li>
+            <li class="nav-lista-item"><a href="#">Quiero ser franquiciado</a></li>
+            <li class="nav-lista-item"><a href="#">Anúncie aquí</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="contacto__div-formulario">
+        <h1 class="contacto__titulo">Hable con nosotros</h1>
+        <form class="form-contacto">
+          <div class="input-nombre">
+            <input class="contacto-input-nombre" type="text" placeholder="Nombre y Apellido">
+          </div>
+          <div class="input-mensaje">
+            <textarea cols="100%" rows="5" class="contacto-input-mensaje" type="text" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+          <button onclick="alert('Su mensaje fue enviado correctamente')" class="boton__azul enviar-mensaje">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="pie">
+    <p>Desarrollado por Andres Mariano Fernandez &copy - 2022</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+.seccion__productos {
+  padding: 3rem 8rem 1rem 8rem;
+  background-color: var(--gris-busqueda);
+}
+
+.galeria__productos-encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.galeria__productos-titulo {
+  font-size: 2rem;
+  color: var(--gris-titulos);
+}
+
+.galeria__productos-vertodo {
+  color: var(--celeste);
+  font-weight: bold;
+}
+
+.producto {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.producto-item {
+  width: 15%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.producto-img {
+  width: 100%;
+}
+.producto-descripcion {
+  font-size: 0.9rem;
+  color: var(--gris-titulos);
+  margin: 0.4rem 0;
+}
+
+.producto-precio {
+  font-weight: bold;
+  color: var(--gris-titulos);
+  margin: 0.4rem 0;
+}
+
+.producto-link {
+  color: var(--celeste);
+  font-weight: bold;
+}
+
+.producto-numero {
+  color: var(--gris-titulos);
+  margin: 0.4rem 0;
+}
+
+.producto-edicion {
+  position: relative;
+  display: inline-block;
+}
+
+.icono-eliminar {
+  position: absolute;
+  top: 5%;
+  left: 70%;
+}
+
+.icono-editar {
+  position: absolute;
+  top: 5%;
+  left: 83%;
+}
+
+@media screen and (max-width: 768px) {
+  .seccion__productos {
+    padding: 1rem;
+  }
+  .producto-item {
+    width: 24%;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  .producto-item:nth-child(6), .producto-item:nth-child(5){
+    display: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .producto-item{
+    width: 45%;
+  }
+  .galeria__productos-titulo {
+    font-size: 1.5rem;
+  }
+  
+  .galeria__productos-vertodo {
+    font-size: 0.9rem;
+  }
+  .producto{
+    margin-bottom: 1rem;
+  }
+  .seccion__productos{
+    padding-bottom: 1px;
+  }
+  #boton__login{
+    padding: 0.5rem 2.5rem;
+  }
+  .producto-item{
+    margin-bottom: 1rem;
+  }
+  .galeria__productos-encabezado {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #agregar-productos{
+    margin-top: 1rem;
+  }
+}

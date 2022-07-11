@@ -1,0 +1,31 @@
+:root{
+  --celeste: #2A7AE4;
+  --gris: #464646;
+  --celeste-fondo: #EAF2FD;
+  --gris-busqueda: #F5F5F5;
+  --gris-titulos: #464646;
+}
+
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+}
+
+input:focus{
+  outline: none;
+}
+
+.boton__blanco{
+color: var(--celeste);
+border: solid 1px var(--celeste);
+padding: 1rem 2rem;
+
+}
+
+.boton__azul{
+  color: #ffffff;
+  background: var(--celeste);
+  padding: 1rem 2rem;
+  }

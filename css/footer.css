@@ -1,0 +1,11 @@
+.pie{
+  text-align: center;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 360px){
+  .pie{
+    font-size: 0.9rem;
+    padding: 1.5rem;
+  }
+}

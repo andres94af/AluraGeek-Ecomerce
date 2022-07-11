@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Geek - Producto XYZ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/root.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/productos-ampliado/productos-ampliado.css">
+  <link rel="stylesheet" href="css/main/productos.css">
+  <link rel="stylesheet" href="css/main/contacto.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-logo-busqueda">
+      <h1 class="logo"><a href="index.html"><img id="img-logo" src="img/logo.png" alt="logo"></a></h1>
+      <div class="busqueda">
+        <input id="input-buscar" type="text" placeholder="¿Que deseas buscar?">
+        <button class="boton-buscar"><img class="img-lupa" src="img/lupa.png" alt="lupa"></button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="producto1">
+      <div class="producto1-imagen">
+        <img class="producto1-img" src="img/m.png" alt="imagen producto">
+      </div>
+      <div class="producto1-info">
+        <h1 class="producto1-titulo">Producto XYZ</h1>
+        <p class="producto1-precio">$60,00</p>
+        <p class="producto1-descripcion">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
+        <button class="boton__azul" id="comprar-ahora">Comprar ahora</button>
+      </div>
+    </section>
+    <section class="seccion__productos">
+      <div class="galeria__productos">
+        <div class="galeria__productos-encabezado">
+          <h1 class="galeria__productos-titulo">Productos Similares</h1>
+          <a class="galeria__productos-vertodo" href="#">Ver todo</a>
+        </div>
+        <div class="producto">
+          <div class="producto-item">
+            <img class="producto-img" src="img/a.png" alt="imagen producto">
+            <p class="producto-descripcion">Producto XYZ</p>
+            <p class="producto-precio">$ 60,00</p>
+            <a class="producto-link" href="#">Ver producto</a>
+          </div>
+          <div class="producto-item">
+            <img class="producto-img" src="img/b.png" alt="imagen producto">
+            <p class="producto-descripcion">Producto XYZ</p>
+            <p class="producto-precio">$ 60,00</p>
+            <a class="producto-link" href="#">Ver producto</a>
+          </div>
+          <div class="producto-item">
+            <img class="producto-img" src="img/c.png" alt="imagen producto">
+            <p class="producto-descripcion">Producto XYZ</p>
+            <p class="producto-precio">$ 60,00</p>
+            <a class="producto-link" href="#">Ver producto</a>
+          </div>
+          <div class="producto-item">
+            <img class="producto-img" src="img/d.png" alt="imagen producto">
+            <p class="producto-descripcion">Producto XYZ</p>
+            <p class="producto-precio">$ 60,00</p>
+            <a class="producto-link" href="#">Ver producto</a>
+          </div>
+          <div class="producto-item">
+            <img class="producto-img" src="img/e.png" alt="imagen producto">
+            <p class="producto-descripcion">Producto XYZ</p>
+            <p class="producto-precio">$ 60,00</p>
+            <a class="producto-link" href="#">Ver producto</a>
+          </div>
+          <div class="producto-item">
+            <img class="producto-img" src="img/f.png" alt="imagen producto">
+            <p class="producto-descripcion">Producto XYZ</p>
+            <p class="producto-precio">$ 60,00</p>
+            <a class="producto-link" href="#">Ver producto</a>
+          </div>
+      </div>
+      </div>
+    </section>
+    <section class="contacto">
+      <div class="contacto__div-logo">
+        <img class="contacto-imagen" src="img/Logo.png" alt="logo">
+      </div>
+      <div class="contacto__div-nav">
+        <nav class="contcto-nav">
+          <ul class="nav-lista">
+            <li class="nav-lista-item"><a href="#">Quienes somos</a></li>
+            <li class="nav-lista-item"><a href="#">Política de privacidad</a></li>
+            <li class="nav-lista-item"><a href="#">Programa de fidelidad</a></li>
+            <li class="nav-lista-item"><a href="#">Nuestras Tiendas</a></li>
+            <li class="nav-lista-item"><a href="#">Quiero ser franquiciado</a></li>
+            <li class="nav-lista-item"><a href="#">Anúncie aquí</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="contacto__div-formulario">
+        <h1 class="contacto__titulo">Hable con nosotros</h1>
+        <form class="form-contacto">
+          <div class="input-nombre">
+            <input class="contacto-input-nombre" type="text" placeholder="Nombre y Apellido">
+          </div>
+          <div class="input-mensaje">
+            <textarea cols="100%" rows="5" class="contacto-input-mensaje" type="text" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+          <button onclick="alert('Su mensaje fue enviado correctamente')" class="boton__azul enviar-mensaje">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="pie">
+    <p>Desarrollado por Andres Mariano Fernandez &copy - 2022</p>
+  </footer>
+</body>
+</html>
